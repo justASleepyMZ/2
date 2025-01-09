@@ -17,37 +17,37 @@ MIT
 ## Smart Contract
 The core logic is handled by the smart contract, Marketplace.sol, written in Solidity. Key functionalities include:
 
-## Listing Models:
+Listing Models:
 Users can list a new AI model by providing a name, description, and price.
 
-## Purchasing Models:
+Purchasing Models:
 Users can purchase a listed model by sending the required payment. The payment is transferred to the model creator.
 
-## Rating Models:
+Rating Models:
 After purchasing a model, users can provide a rating between 1 and 5.
 
-## Withdrawing Funds:
+Withdrawing Funds:
 Model creators can withdraw their accumulated funds earned through sales.
 
-## Viewing Model Details:
+Viewing Model Details:
 Anyone can retrieve details about a specific AI model, such as its name, description, price, creator, and average rating.
 
 ## Frontend
 The frontend is built with React and allows users to interact with the smart contract via MetaMask. Key components:
 
-## List Models:
+List Models:
 A form to add new AI models to the marketplace.
 
-## Display Models:
+Display Models:
 A grid/list view showing all available AI models.
 
-## Purchase Models:
+Purchase Models:
 A button to buy a selected model by interacting with the smart contract.
 
-## Rate Models:
+Rate Models:
 A form to rate purchased models, contributing to their overall rating.
 
-## Withdraw Funds:
+Withdraw Funds:
 A button for model creators to withdraw their earnings.
 
 ## Code Explanation
